@@ -25,7 +25,7 @@ namespace TestDotNetVrSystem
         {
             int i;
 
-            if(input.Length > 7) return false;
+            if(input.Length != 7) return false;
 
             for( i =0; i< input.Length; i++ ) {
 
