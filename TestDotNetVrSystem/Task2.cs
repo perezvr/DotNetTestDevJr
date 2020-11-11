@@ -29,7 +29,7 @@ namespace TestDotNetVrSystem
 
             for( i =0; i< input.Length; i++ ) {
 
-                if ( (i <= 2 && Char.IsDigit(input[i]) )  || (Char.IsLower(input[i]))) {
+                if (i <= 2 && (Char.IsDigit(input[i])  || (Char.IsLower(input[i])))) {
                     return false;
                 }
 
