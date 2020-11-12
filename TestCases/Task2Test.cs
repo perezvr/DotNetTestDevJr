@@ -50,5 +50,32 @@ namespace TestCases
             if (result)
                 Assert.Fail();
         }
+
+        [TestMethod]
+        public void Test6()
+        {
+            var result = Task2.CheckInput("zz0000");
+
+            if (result)
+                Assert.Fail();
+        }
+
+        [TestMethod]
+        public void Test7()
+        {
+            var result = Task2.CheckInput("z*z099zx");
+
+            if (result)
+                Assert.Fail();
+        }
+
+        [TestMethod]
+        public void Test8()
+        {
+            var result = Task2.CheckInput("_=A1234");
+
+            if (result)
+                Assert.Fail();
+        }
     }
 }

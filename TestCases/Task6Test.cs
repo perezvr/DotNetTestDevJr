@@ -5,7 +5,7 @@ using TestDotNetVrSystem;
 namespace TestCases
 {
     [TestClass]
-    public class Tassk6Test
+    public class Task6Test
     {
         [TestMethod]
         public void Test1()
