@@ -1,4 +1,6 @@
-﻿namespace TestDotNetVrSystem
+﻿
+using System;
+namespace TestDotNetVrSystem
 {
     public class Task2
     {
@@ -21,6 +23,23 @@
          */
         public static bool CheckInput(string input)
         {
+            int i;
+
+            if(input.Length != 7) return false;
+
+            for( i =0; i< input.Length; i++ ) {
+
+                if (i <= 2 && (Char.IsDigit(input[i])  || (Char.IsLower(input[i])))) {
+                    return false;
+                }
+
+                if (i > 2 && Char.IsLetter(input[i])) {
+                    return false;
+                }
+            }
+
+            return true;
+        
         }
     }
 }

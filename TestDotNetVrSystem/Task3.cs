@@ -10,6 +10,14 @@ namespace TestDotNetVrSystem
          */
         public static int GetSum(List<int> list)
         {
+            int sum = 0;
+            int i;
+
+            for (i=0; i< list.Count; i++) {
+                if (list[i] > 0) sum+= list[i];
+            }
+
+            return sum;
         }
     }
 }

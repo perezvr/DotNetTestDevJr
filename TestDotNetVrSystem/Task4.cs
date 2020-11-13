@@ -10,6 +10,20 @@ namespace TestDotNetVrSystem
          */
         public static List<Student> GetStudentsByBirth()
         {
+            Repository Repo = new Repository();
+            List <Student> studentsThisYear = new List<Student>();
+            int i;
+            int year = 2020;
+
+
+            for (i=0; i< Repo.Students.Count; i++)
+                if(Repo.Students[i].Birth.Year == year) 
+                    studentsThisYear.Add(Repo.Students[i]);
+                
+                    
+            return studentsThisYear;
+
+
         }
     }
 }
