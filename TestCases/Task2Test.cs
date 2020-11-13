@@ -9,7 +9,7 @@ namespace TestCases
         [TestMethod]
         public void Test1()
         {
-            var result = Task2.CheckInput("ABC1239");
+            var result = Task2.CheckInput("ABC1239a");
 
             if (!result)
                 Assert.Fail();
@@ -38,14 +38,14 @@ namespace TestCases
         {
             var result = Task2.CheckInput("ARR0000");
 
-            if (!result)
+            if (result)
                 Assert.Fail();
         }
 
         [TestMethod]
         public void Test5()
         {
-            var result = Task2.CheckInput("zzz0000");
+            var result = Task2.CheckInput("zzz0000A");
 
             if (result)
                 Assert.Fail();
@@ -54,7 +54,7 @@ namespace TestCases
         [TestMethod]
         public void Test6()
         {
-            var result = Task2.CheckInput("zz0000");
+            var result = Task2.CheckInput("AZQ0000'");
 
             if (result)
                 Assert.Fail();
@@ -73,6 +73,24 @@ namespace TestCases
         public void Test8()
         {
             var result = Task2.CheckInput("_=A1234");
+
+            if (result)
+                Assert.Fail();
+        }
+
+        [TestMethod]
+        public void Test9()
+        {
+            var result = Task2.CheckInput("QWE1020x");
+
+            if (!result)
+                Assert.Fail();
+        }
+
+        [TestMethod]
+        public void Test10()
+        {
+            var result = Task2.CheckInput("QWE1020Z");
 
             if (result)
                 Assert.Fail();
