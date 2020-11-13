@@ -63,9 +63,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TestDotNetVrSystem\TestDotNetVrSystem.csproj">
+    <ProjectReference Include="..\TestDotNetVrSystem\Tasks.csproj">
       <Project>{FBAC8526-8844-41D4-931B-5FA0A086AE63}</Project>
-      <Name>TestDotNetVrSystem</Name>
+      <Name>Tasks</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

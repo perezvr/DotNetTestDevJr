@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using TestDotNetVrSystem.HelpClasses;
-namespace TestDotNetVrSystem
+
+namespace Tasks
 {
     public class Task4
     {
@@ -10,6 +11,7 @@ namespace TestDotNetVrSystem
          */
         public static List<Student> GetStudentsByBirth()
         {
+
         }
     }
 }

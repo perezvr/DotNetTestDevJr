@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TestDotNetVrSystem
+namespace Tasks
 {
     public class Task1
     {
@@ -9,6 +9,7 @@ namespace TestDotNetVrSystem
          */
         public static int? GetMax(List<int> list)
         {
+
         }
     }
 }

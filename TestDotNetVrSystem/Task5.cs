@@ -1,4 +1,4 @@
-﻿namespace TestDotNetVrSystem
+﻿namespace Tasks
 {
     public class Task5
     {
@@ -8,6 +8,7 @@
          */
         public static string GetEvenOrOdd(int number)
         {
+
         }
     }
 }

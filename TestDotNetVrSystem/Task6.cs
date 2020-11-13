@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TestDotNetVrSystem
+namespace Tasks
 {
     public class Task6
     {
@@ -17,6 +17,7 @@ namespace TestDotNetVrSystem
          */
         public static List<decimal> GetRatios(List<int> numbers)
         {
+
         }
     }
 }

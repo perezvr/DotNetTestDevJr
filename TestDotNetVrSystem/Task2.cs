@@ -1,4 +1,4 @@
-﻿namespace TestDotNetVrSystem
+﻿namespace Tasks
 {
     public class Task2
     {
@@ -21,6 +21,7 @@
          */
         public static bool CheckInput(string input)
         {
+
         }
     }
 }

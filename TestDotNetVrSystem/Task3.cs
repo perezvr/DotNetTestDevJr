@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TestDotNetVrSystem
+namespace Tasks
 {
     public class Task3
     {
@@ -10,6 +10,7 @@ namespace TestDotNetVrSystem
          */
         public static int GetSum(List<int> list)
         {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TestDotNetVrSystem
+namespace Tasks
 {
     public class Task7
     {
@@ -10,6 +10,7 @@ namespace TestDotNetVrSystem
          */
         public static List<string> GetProductsOutOfStock()
         {
+
         }
 
         /*
@@ -18,6 +19,7 @@ namespace TestDotNetVrSystem
         */
         public static int GetSumStock()
         {
+
         }
 
         /*
@@ -28,6 +30,7 @@ namespace TestDotNetVrSystem
          */
         public static bool IsSalePossible(int productId, int orderQuantity)
         {
+
         }
     }
 }
