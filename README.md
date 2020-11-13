@@ -1,7 +1,7 @@
 # DotNetTestDevJr
 Projeto para teste de habilidades de desenvolvedores .net - Nível Júnior
 
-<h4>Instruções para realização dos testes</h4>
+<h3>Instruções para realização dos testes</h3>
 
 - O projeto Tasks contém os problemas que precisam ser resolvidos.
 - Parta do princípio que os parâmetros já serão passados e você só precisa escrever seu código dentro desses métodos.
