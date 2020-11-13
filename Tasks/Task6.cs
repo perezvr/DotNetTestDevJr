@@ -15,9 +15,6 @@ namespace Tasks
          * 0.333333
          * 0.166667
          */
-        public static List<decimal> GetRatios(List<int> numbers)
-        {
-
-        }
+        public static List<decimal> GetRatios(List<int> numbers) { }
     }
 }

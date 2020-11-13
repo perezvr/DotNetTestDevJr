@@ -1,4 +1,4 @@
-﻿namespace TestDotNetVrSystem.HelpClasses
+﻿namespace Tasks.HelpClasses
 {
     public class Product
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TestDotNetVrSystem.HelpClasses
+namespace Tasks.HelpClasses
 {
     public class Student
     {

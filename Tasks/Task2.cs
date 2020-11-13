@@ -19,9 +19,6 @@
          * 2 - QAZA987
          * 3 - abc1324
          */
-        public static bool CheckInput(string input)
-        {
-
-        }
+        public static bool CheckInput(string input) { }
     }
 }

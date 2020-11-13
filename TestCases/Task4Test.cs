@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Tasks;
-using TestDotNetVrSystem.HelpClasses;
+using Tasks.HelpClasses;
 
 namespace TestCases
 {

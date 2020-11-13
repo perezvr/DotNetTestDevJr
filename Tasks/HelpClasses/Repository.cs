@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TestDotNetVrSystem.HelpClasses
+namespace Tasks.HelpClasses
 {
     public class Repository
     {

@@ -1,2 +1,2 @@
-# DotNetTestDevJr
-Projeto para teste de habilidades de desenvolvedores .net - Nível Júnior
+# rhtest
+Teste para o RH Desenv VR
