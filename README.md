@@ -2,7 +2,7 @@
 Projeto para teste de habilidades de desenvolvedores .net - Nível Júnior
 
 <H3>Primeiros passos</h3>
-- Logado em sua conta, faça um <b>fork</b> desse repositório.
+- Logado em sua conta, faça um <b>fork</b> desse repositório.<br>
 - Após a realização do teste, efetue os commits e envie o link do repositório na sua conta.
 
 <h3>Instruções para realização realização das tarefas</h3>
