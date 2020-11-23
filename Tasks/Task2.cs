@@ -1,4 +1,7 @@
-﻿namespace Tasks
+﻿using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace Tasks
 {
     public class Task2
     {
@@ -20,6 +23,41 @@
          * 3 - abc1324
          * 4 - az111W
          */
-        public static bool CheckInput(string input) { }
+        public static bool CheckInput(string input)
+        {
+
+            int upcase = 0;
+            int lowcase = 0;
+            int num = 0;
+            bool result = false;
+
+
+            for (int i = 0; i < input.Length; i++)
+            {
+                char ch = input[i];
+                if (ch >= 'A' && ch <= 'Z')
+                    upcase++;
+                else if (ch >= 'a' && ch <= 'z')
+                    lowcase++;
+                else if (ch >= '0' && ch <= '9')
+                    num++;
+                if (upcase >= 3)
+                {
+                    if (lowcase >= 1)
+                    {
+                        if (num >= 4)
+                        {
+                            result = true;
+                        }
+                    }
+                }
+                else
+                    result = false;
+            }return result;
+        }
     }
 }
+
+
+    
+

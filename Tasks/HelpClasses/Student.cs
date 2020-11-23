@@ -2,9 +2,9 @@
 
 namespace Tasks.HelpClasses
 {
-    public class Student
+    public class student
     {
-        public Student(int id, string name, DateTime birth)
+        public student(int id, string name, DateTime birth)
         {
             Id = id;
             Name = name;

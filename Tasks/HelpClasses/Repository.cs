@@ -5,7 +5,7 @@ namespace Tasks.HelpClasses
 {
     public class Repository
     {
-        public List<Student> Students;
+        public List<student> Students;
         public List<Product> Products;
 
         public Repository()
@@ -14,22 +14,22 @@ namespace Tasks.HelpClasses
             Products = GetProducts();
         }
 
-        private static List<Student> GetStudents()
+        private static List<student> GetStudents()
         {
-            List<Student> students = new List<Student>();
+            List<student> students = new List<student>();
 
-            students.Add(new Student(1, $"Student1", new DateTime(2020, 1, 1)));
-            students.Add(new Student(2, $"Student2", new DateTime(2010, 1, 1)));
-            students.Add(new Student(3, $"Student3", new DateTime(2011, 1, 1)));
-            students.Add(new Student(4, $"Student4", new DateTime(2012, 1, 1)));
-            students.Add(new Student(5, $"Student5", new DateTime(2013, 1, 1)));
-            students.Add(new Student(6, $"Student6", new DateTime(2014, 1, 1)));
-            students.Add(new Student(7, $"Student7", new DateTime(2015, 1, 1)));
-            students.Add(new Student(8, $"Student8", new DateTime(2016, 1, 1)));
-            students.Add(new Student(9, $"Student9", new DateTime(2017, 1, 1)));
-            students.Add(new Student(10, $"Student10", new DateTime(2018, 1, 1)));
-            students.Add(new Student(11, $"Student11", new DateTime(2019, 1, 1)));
-            students.Add(new Student(12, $"Student12", new DateTime(2020, 10, 31)));
+            students.Add(new student(1, $"Student1", new DateTime(2020, 1, 1)));
+            students.Add(new student(2, $"Student2", new DateTime(2010, 1, 1)));
+            students.Add(new student(3, $"Student3", new DateTime(2011, 1, 1)));
+            students.Add(new student(4, $"Student4", new DateTime(2012, 1, 1)));
+            students.Add(new student(5, $"Student5", new DateTime(2013, 1, 1)));
+            students.Add(new student(6, $"Student6", new DateTime(2014, 1, 1)));
+            students.Add(new student(7, $"Student7", new DateTime(2015, 1, 1)));
+            students.Add(new student(8, $"Student8", new DateTime(2016, 1, 1)));
+            students.Add(new student(9, $"Student9", new DateTime(2017, 1, 1)));
+            students.Add(new student(10, $"Student10", new DateTime(2018, 1, 1)));
+            students.Add(new student(11, $"Student11", new DateTime(2019, 1, 1)));
+            students.Add(new student(12, $"Student12", new DateTime(2020, 10, 31)));
 
             return students;
         }
