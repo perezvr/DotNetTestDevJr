@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Tasks.HelpClasses;
 
 namespace Tasks
@@ -11,7 +13,13 @@ namespace Tasks
          */
         public static List<student> GetStudentsByBirth()
         {
-            List<student> Students;
+            var repository = new Repository();
+            List<student> students = new List<student>();
+            var result = Enumerable.Range(0, students.Count)
+             .Select(id => students[id].Birth.Year == 2020)
+             .ToList();
+            return result;
+
         }
     }
 }
